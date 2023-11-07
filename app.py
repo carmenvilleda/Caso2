@@ -1,3 +1,4 @@
+#Librerias utilizadas
 import dash
 from dash import dcc
 from dash import html
@@ -101,9 +102,11 @@ def display_value(selected_date,selected_indicador):
                               data = df_reshaped_2.to_dict("records"),
                               export_format = "csv",
                               fill_width = True,
-                              style_header = {'BackgroundColor':'red',
+                              style_header = {'backgroundColor':'red',
                                              'color': 'white'},
                               ))
+#192.168.0.18
+#10.22.248.57
 #192.168.0.18
 
 #server y correr
